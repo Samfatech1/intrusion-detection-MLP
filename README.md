@@ -16,5 +16,8 @@ This project implements an intrusion detection system using a Multi-Layer Percep
 
 ## Setup
 1. Install dependencies:
-   ```bash
    pip install -r requirements.txt
+2. Train the model:
+   python src/train_model.py
+3. Evaluate the model:
+   python src/evaluate_model.py
